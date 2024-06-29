@@ -12,8 +12,8 @@ public class Products {
          this.quantity = quantity;
      }
 
-     public void updateQuantity(int amount){
-         this.quantity += amount;
+     public void updateQuantity(int quantity ){
+         this.quantity -= quantity;
      }
 
      public String getName(){

@@ -3,9 +3,9 @@ package store.java;
 public class Staff {
     private String name;
     private int  id;
-    private float  phoneNumber;
+    private String phoneNumber;
 
-    public Staff(String name, int id,float phoneNumber) {
+    public Staff(String name, int id,String phoneNumber) {
      this.name = name;
      this.id  = id;
      this.phoneNumber = phoneNumber;
@@ -16,8 +16,8 @@ public class Staff {
     public  int getId() {return id;}
     public  void setId(int id){this.id = id;}
 
-    public  float  getPhoneNumber() {return phoneNumber;}
-    public  void setPhoneNumber(float phoneNumber){this.phoneNumber = phoneNumber;}
+    public  String  getPhoneNumber() {return phoneNumber;}
+    public  void setPhoneNumber(String phoneNumber){this.phoneNumber = phoneNumber;}
 
     @Override
     public String toString(){
