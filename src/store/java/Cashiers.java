@@ -1,7 +1,7 @@
 package store.java;
 
-public class Chashiers extends Staff  {
-         public Chashiers(String name,int id,String phoneNumber){
+public class Cashiers extends Staff  {
+         public Cashiers(String name,int id,String phoneNumber){
              super(name, id , phoneNumber);
          }
     public void sellProduct (Products products, Customers customers, int quantity){
@@ -13,4 +13,9 @@ public class Chashiers extends Staff  {
     }
 
 
+    public void add(Cashiers cashiers) {
+    }
+
+    public void remove(Cashiers cashiers) {
+    }
 }
