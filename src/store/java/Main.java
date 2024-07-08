@@ -6,7 +6,7 @@ public class Main {
         Customers mary = new Customers(1,"Mary", "John", "oni@john.com","0902100", "ketu 211",2222);
         System.out.println(mary);
 
-        Staff staff = new Staff("hope",2,"0" );
+        Staff staff = new Staff("hope",2,"09021830011" );
         System.out.println(staff);
 
 
